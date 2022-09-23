@@ -1,12 +1,10 @@
 import { galleryItems } from "./gallery-items.js";
 // Change code below this line
 
-console.log(galleryItems);
-
 // PRZYPISANIE KONTENERA GALERII DO ZMIENNEJ
 const galleryContainer = document.querySelector(".gallery");
 
-// STWORZENIE KODU HTML GALERII
+// GENEROWANIE KODU HTML GALERII
 const markup = galleryItems
   .map(
     (image) =>
